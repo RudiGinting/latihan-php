@@ -55,7 +55,7 @@ class TodoController
             $id = $_POST['id'] ?? '';
             $title = trim($_POST['title'] ?? '');
             $description = trim($_POST['description'] ?? '');
-            $is_finished = isset($_POST['is_finished']) ? true : false;
+            $is_finished = isset($_POST['is_finished']) && $_POST['is_finished'] == '1' ? true : false;
             
             if (empty($title) || empty($id)) {
                 session_start();
