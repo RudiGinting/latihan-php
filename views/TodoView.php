@@ -590,7 +590,7 @@
                 <span class="brand-icon">
                     <i class="fas fa-check-double"></i>
                 </span>
-                TaskFlow
+                Todo List
             </a>
             <button class="btn-add-todo" data-bs-toggle="modal" data-bs-target="#addTodo">
                 <i class="fas fa-plus-circle"></i>
